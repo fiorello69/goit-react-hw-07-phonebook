@@ -19,8 +19,6 @@ const Contacts = () => {
 
   return (
     <div className={styles.contacts}>
-      <h2>Contacts</h2>
-
       <FilterContactsInput />
 
       {contactsFiltered.length > 0 ? (
