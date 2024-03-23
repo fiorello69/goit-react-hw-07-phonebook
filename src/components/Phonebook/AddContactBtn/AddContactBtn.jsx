@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import styles from './AddContactBtn.module.css';
 
-const SubmitBtn = ({ text }) => {
+const AddContactBtn = ({ text }) => {
   return (
     <button className={styles.submitBtn} type="submit">
       {text}
@@ -9,8 +9,8 @@ const SubmitBtn = ({ text }) => {
   );
 };
 
-SubmitBtn.propTypes = {
+AddContactBtn.propTypes = {
   text: PropTypes.string.isRequired,
 };
 
-export default SubmitBtn;
+export default AddContactBtn;
